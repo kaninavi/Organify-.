@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>organify</title>
+        <!-- tailwind cdn link-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" href="index.js">
+    </head>
+
+<body>
+
+    
+    <nav class="bg bg-green-100 p-3 flex items-center justify-between shadow-xl sticky top-0 z-10">
+        <h1 class="text-xl"><img src="./logo-1.png"  width="200"  ></h1>
+        
+
+            <!-- menu bar limk-->
+            <svg id="menuicon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            class="size-6 md:hidden">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+
+    <ul class="flex gap-4 text-gr-500 hidden md:flex  ">
+        <li>
+            <a class="hover:underline" href="index.html">Home</a>
+        </li>
+        <li>
+            <a class="hover:underline" href="product.html">Products</a>
+        </li>
+        <li><a class="hover:underline" href="contact.html">Contacts</a></li>
+    </ul>
+</nav>
+
+<!-- sec-->
+ <section class="mt-0 text-center p-4 bg-green-100">
+    <h1 class="text-3xl p-3">Our Products</h1>
+    <input placeholder="search for products..." class="border border-black p-2 m-2 " style="width: 80%;">
+</section>
+<!--img sect-->
+<section class="p-4 text-center bg-green-50"  >
+    
+    <div class="grid grid-cols-2 md:grid-cols-4 mt-10 gap-8">
+        <div class="productcontainer">
+            <img src="./dragon.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2">
+            <h1>Dragon</h1>
+            <p>$20</p>
+        </div>
+        <div>
+            <img src="./green.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2"
+                alt="">
+            <h1>Broccoli</h1>
+            <p>$20</p>
+        </div>
+        <div>
+            <img src="./fruits-with-protein-help-boost-intake-pomegranate-1440x810.webp" class="inline hover:shadow-xl transform hover:-translate-y-2"
+                alt="">
+            <h1>Pomegranate</h1>
+            <p>$20</p>
+        </div>
+
+        <div>
+            <img src="./carrot.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2"
+                alt="">
+            <h1>Carrot</h1>
+            <p>$20</p>
+        </div>
+
+
+        <div>
+            <img src="./tomato.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2"
+                alt="">
+            <h1>Tomato</h1>
+            <p>$20</p>
+        </div>
+
+
+
+        <div>
+            <img src="./imgg.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2"
+                alt="">
+            <h1>Vegatable</h1>
+            <p>$20</p>
+        </div>
+
+
+        <div>
+            <img src="./apple.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2"
+                alt="">
+            <h1>Apple</h1>
+            <p>$20</p>
+        </div>
+
+        
+
+        <div>
+            <img src="./ava.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2"
+                alt="">
+            <h1>Avocado</h1>
+            <p>$20</p>
+        </div>
+</div>
+
+</section>
+
+<!--Footer-->
+<section class="text-center bg-green-100 p-10 flex flex-col gap-5">
+    <h1 class="text-4xl font-bold"></h1>
+    <p>Organic produce tastes noticeably better than supermarket alternatives, especially tomatoes and leafy green</p>
+<p>2025 organify.com</p>
+
+</section>
+
+    
+</body>
+</html>
